@@ -16,6 +16,18 @@ npm i react-hook-form
 ## validação de formulario
 npm i zod @hookform/resolvers
 
+## configuracao da api e criar o arquivo orval.config.ts e configurar
+npm i orval -D
+
+## cria toda tipagem e rotas da api
+npx orval
+
+## banco de dados free 
+Neon (10 projetos, 0.5GB, 2 CPU)
+
+## servidor free
+Uptash 
+
 
 ## Configuração do projeto com o biome
 
