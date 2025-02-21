@@ -1,0 +1,37 @@
+## lib CSS
+npm i tailwindcss
+
+## lib de icones
+npm i lucide-react 
+
+## Permite criar  modules, variaveis css na lib do tailwindcss
+npm i tailwindcss/postcss
+
+## Permite que dar um merge se o componente repetir o mesmo atributo
+npm i taiwind-merge
+
+## tratamento de formulario
+npm i react-hook-form
+
+## validação de formulario
+npm i zod @hookform/resolvers
+
+
+## Configuração do projeto com o biome
+
+{
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.biome": "explicit",
+    "source.organizeImports.biome": "explicit"
+  },
+  "editor.formatOnSave": true
+}
